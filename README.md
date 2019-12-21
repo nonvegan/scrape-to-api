@@ -1,6 +1,6 @@
 # scrape-to-API
 
-App that provides an api to access scraped data from [RealClearPolitics](realclearpolitics.com)
+App that provides an api to access scraped data from [RealClearPolitics](https://www.realclearpolitics.com/)
 ### 🔧 Built Using 🔧
 * [Express](https://www.npmjs.com/package/express)
 * [Axios](https://www.npmjs.com/package/axios)
@@ -12,5 +12,7 @@ App that provides an api to access scraped data from [RealClearPolitics](realcle
 
 ### 🔌 How to Import it 🔌
 1. **Fork** it! 
-2. **Clone** it!:
+2. **Clone** it!
+        ´´´
         git clone https://github.com/nonvegan/scrape-to-API.git
+        ´´´

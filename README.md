@@ -1,6 +1,13 @@
 # scrape-to-API
 
 App that provides an api to access scraped data from [RealClearPolitics](https://www.realclearpolitics.com/)
+
+### 📷 Screenshots 📷
+RealClearPolitics           |   Deployed API
+:---------------------:|:--------------------
+![RealClearPolitics](screenshots/realClear.png) | ![Deployed API](screenshots/deployedApi.png)
+
+
 ### 🔧 Built Using 🔧
 * [Express](https://www.npmjs.com/package/express)
 * [Axios](https://www.npmjs.com/package/axios)

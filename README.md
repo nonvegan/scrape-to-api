@@ -5,7 +5,7 @@ App that provides an api to access scraped data from [RealClearPolitics](https:/
 ### 📷 Screenshots 📷
 RealClearPolitics           |   Deployed API
 :---------------------:|:--------------------
-![RealClearPolitics](screenshots/realClear.png) | ![Deployed API](screenshots/deployedApi.png)
+![RealClearPolitics](screenshots/realClearPolitics.PNG) | ![Deployed API](screenshots/deployedAPI.PNG)
 
 
 ### 🔧 Built Using 🔧

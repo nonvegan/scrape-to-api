@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const realClearPoliticsScrapingController = require('../controllers/realClearPoliticsScraping.js')
 router.get('/', function(req, res) {
-    res.send("<a href=\"/trump\">trump</a><br><a href=\"/country\">country</a>")
+    res.send("<ul><li href=\"/trump\">Trump Approval Rating</li><li href=\"/country\" >Direction of Country</li></ul>");
 });
 router.get('/trump', realClearPoliticsScrapingController.trumpApprovalRead);
 router.get('/country', realClearPoliticsScrapingController.directionOfCountryRead);

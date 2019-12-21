@@ -15,9 +15,11 @@ async function trumpApprovalRead(req, res) {
     const disapprove = $('.polls > #container > .alpha-container  > .alpha > .chart_wrapper > .chart_header > .chart_legend > tbody > tr:nth-child(2) > .candidate > .value').text();
     console.log("Fetching trump approval data from " + siteUrl)
     res.send({
-        date: date,
-        approve: approve,
-        disapprove: disapprove
+        trumpApprovalRating: {
+            date: date,
+            approve: approve,
+            disapprove: disapprove
+        }
     })
 }
 
@@ -29,9 +31,11 @@ async function directionOfCountryRead(req, res) {
     const wrong = $('.polls > #container > .alpha-container  > .alpha > .chart_wrapper > .chart_header > .chart_legend > tbody > tr > .candidate:nth-child(2) >.value').text();
     console.log("Fetching direction of country data from " + siteUrl)
     res.send({
-        date: date,
-        right: right,
-        wrong: wrong
+        directionOfCountry: {
+            date: date,
+            right: right,
+            wrong: wrong
+        }
     })
 }
 

@@ -13,6 +13,7 @@ App that provides an api to access scraped data from [RealClearPolitics](https:/
 ### 🔌 How to Import it 🔌
 1. **Fork** it! 
 2. **Clone** it!
-     ```
-        git clone https://github.com/nonvegan/scrape-to-API.git
-     ```
+     
+  ```
+git clone https://github.com/nonvegan/scrape-to-API.git
+  ```

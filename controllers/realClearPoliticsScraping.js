@@ -18,7 +18,7 @@ async function trumpApprovalRead(req, res) {
         const disapprove = $('.polls > #container > .alpha-container  > .alpha > .chart_wrapper > .chart_header > .chart_legend > tbody > tr:nth-child(2) > .candidate > .value').text();
         if (date && approve && disapprove) {
             res.send({
-                directionOfCountry: {
+                trumpApproval: {
                     date: date,
                     approve: approve,
                     disapprove: disapprove

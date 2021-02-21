@@ -14,7 +14,7 @@ RealClearPolitics           |   Deployed API
 * [Cheerio](https://www.npmjs.com/package/cheerio)
 
 ### 💻 Deployed with Heroku  💻
-* [Heroku](https://scrape-to-api.herokuapp.com/)
+* [Heroku](https://scrape-trump-approval.herokuapp.com)
  
 
 ### 🔌 How to Import it 🔌
